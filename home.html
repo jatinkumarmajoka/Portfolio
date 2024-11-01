@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Jatin Majoka</h1>
+            <p>Full-Stack Developer & Python Devloper</p>
+            <p>Passionate about crafting clean, maintainable, and reusable code for a seamless user experience.</p>
+            <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+        <img src="profile.jpg" alt="Profile" class="profile-image">
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="hope.png" alt="Charity WEb Project" class="project-image">
+                <div class="project-info">
+                    <h3>Charity Website(Hope) </h3>
+                    <p>"Hope-Charity: Empowering communities through compassion and support."</p>
+                    <a href="http://127.0.0.1:3000/Hope/home.html" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="moview.png" alt="Dashboard Project" class="project-image">
+                <div class="project-info">
+                    <h3>Movie Website(Moview)</h3>
+                    <p>"Moview: Your ultimate destination for discovering and reviewing the latest films."</p>
+                    <a href="http://127.0.0.1:3000/moview/home.html" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="perodic table.png" alt="Mobile App" class="project-image">
+                <div class="project-info">
+                    <h3>Perodic Table</h3>
+                    <p>""An interactive website for exploring the elements of the periodic table with ease.""</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Tell me about your project" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 John Anderson. All rights reserved.</p>
+    </footer>
+</body>
+</html>
